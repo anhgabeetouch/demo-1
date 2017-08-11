@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+               $("#cong").click(function(){
+                   var n = $("#soluong").html();
+                   n = parseInt(n);
+                   n = n + 1;
+                   $("#soluong").html(n);
+               });
+               $("#tru").click(function(){
+                   var n = $("#soluong").html();
+                   n = parseInt(n);
+                   n = n - 1;
+                   $("#soluong").html(n);
+               });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="soluong">0</div>
+        <div id="cong"> + </div>
+        <div id="tru"> - </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                abc();
+            });
+
+            function abc(){
+                var s = $("#so").html();
+                s = parseInt(s);
+                s = s + 1;
+                $("#so").html(s);
+                setTimeout("abc()", 1000);
+            }
+        </script>
+        
+    </head>
+
+    <body>
+       <div id="so">0</div>
+    </body>
+</html>

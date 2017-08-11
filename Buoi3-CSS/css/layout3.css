@@ -1,0 +1,5 @@
+#wrapper{ width:800px; margin:auto }
+#top{width:800px; height:100px; background-color: red}
+#left{width:200px; height: 500px; background-color: green; float:left}
+#right{width:600px; height:50px; background-color: black; float: left}
+#footer{width: 800px; height:100px; background-color: blue; clear:both}

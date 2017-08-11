@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("#demo").mouseover(function(){
+                  $("#demo").addClass("xanh");
+              });
+              $("#demo").mouseout(function(){
+                  $("#demo").removeClass("xanh");
+              });
+            });
+        </script>
+        <style>
+        .kichthuoc{width:100px; height:100px; background-color: pink}
+        .xanh{background-color:blue }
+        </style>
+    </head>
+
+    <body>
+       <div class="kichthuoc" id="demo"></div> 
+    </body>
+</html>

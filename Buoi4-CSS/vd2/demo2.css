@@ -1,0 +1,7 @@
+.box{width:300px}
+.top{width: 300px; height:41px; background-image: url("top.png")}
+.middle{
+  padding:0 30 0 30;
+  width: 240px; background-image: url("middle.png")
+}
+.bottom{width: 300px; height:41px; background-image: url("bottom.png")}
